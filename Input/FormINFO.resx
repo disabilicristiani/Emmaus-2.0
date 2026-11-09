@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!--
+    Microsoft ResX Schema
+
+    Version 2.0
+
+    The primary goals of this format is to allow a simple XML format
+    that is mostly human readable. The generation and parsing of the
+    various data types are done through the TypeConverter classes
+    associated with the data types.
+
+    Example:
+
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+
+    There are any number of "resheader" rows that contain simple
+    name/value pairs.
+
+    Each data row contains a name, and value. The row also contains a
+    type or mimetype. Type corresponds to a .NET class that support
+    text/value conversion through the TypeConverter architecture.
+    Classes that don't support this are serialized and stored with the
+    mimetype set.
+
+    The mimetype is used for serialized objects, and tells the
+    ResXResourceReader how to depersist the object. This is currently not
+    extensible. For a given mimetype the value must be set accordingly:
+
+    Note - application/x-microsoft.net.object.binary.base64 is the format
+    that the ResXResourceWriter will generate, however the reader can
+    read any of the formats listed below.
+
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="labelLicenza.Text" xml:space="preserve">
+    <value>Codice sorgente sotto licenza MIT.
+Il testo biblico CEI 2008 © Conferenza Episcopale Italiana non è incluso e va procurato a parte. Per rispettarne il copyright, Ctrl+A e Ctrl+C sono disattivati nella finestra di meditazione e Copia e Crea PDF valgono per un solo versetto.
+Immagini e icone del programma sono state create con strumenti di intelligenza artificiale, non fanno parte del codice sorgente rilasciato sotto licenza MIT, salvo diversa indicazione.
+I font Cardo (© 2002-2011 David J. Perry), usati per il testo biblico, sono distribuiti con licenza SIL Open Font License 1.1: restano soggetti a tale licenza, il cui testo è nel file OFL.txt nella cartella Risorse\Font, e non fanno parte del codice sorgente rilasciato sotto licenza MIT.
+Il font ET Book (© 2015 Dmitry Krasny, Bonnie Scranton, Edward Tufte), usato per i PDF e per la guida, è distribuito con licenza MIT (testo in Risorse\Font\ETBook-LICENSE.txt) e non fa parte del codice sorgente del programma.
+Le preghiere del timer sono lette dalla sintesi vocale di Windows, con le voci installate nel PC: il programma non include né ridistribuisce voci o file audio. Le voci restano soggette ai termini di licenza dei rispettivi produttori (ad esempio Microsoft), non alla licenza MIT.
+La guida in linea usa Microsoft Edge WebView2, prodotto Microsoft con licenza propria, non incluso nel programma. Microsoft e Windows sono marchi dei rispettivi proprietari.</value>
+  </data>
+  <data name="labelFunzionalita.Text" xml:space="preserve">
+    <value>•  Ricerca avanzata nei Testi Sacri: per parole, frasi e intervalli di versetti, con operatori AND, OR e caratteri jolly;
+•  Possibilità di aggiungere commenti personali ai Versetti, con tag e riferimenti biblici, ritrovabili con la ricerca, farne il backup ed esportarli in PDF;
+•  Mappa concettuale per collegare commenti e passi tra loro;
+•  Timer per Meditazione e Preghiera per le Indulgenze, con lettura vocale delle preghiere;
+•  Cinque temi pensati per leggere a lungo senza stancare la vista: notte, pergamena, porpora, riposo per gli occhi, luce notturna, e scaling per adattare l'interfaccia;
+•  Guida in linea integrata, richiamabile con F1 dalla Manutenzione.</value>
+  </data>
+  <data name="labelFeatures.Text" xml:space="preserve">
+    <value>•  Advanced search in the Sacred Texts: by words, phrases and verse ranges, with AND, OR operators and wildcards;
+•  Add personal comments to verses, with tags and biblical references, findable through search, back them up and export them to PDF;
+•  Concept map to link comments and passages together;
+•  Timer for Meditation and Prayer for Indulgences, with spoken reading of the prayers;
+•  Five themes designed for long reading without eye strain: night, parchment, purple, eye rest, night light, and scaling to adapt the interface;
+•  Built-in online help, available with F1 from the Maintenance window.</value>
+  </data>
+</root>

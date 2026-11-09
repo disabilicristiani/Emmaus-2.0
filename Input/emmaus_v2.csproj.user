@@ -1,0 +1,35 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="Current" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <_LastSelectedProfileId>C:\Users\Mazinga-Z\source\repos\Bibbia-v15\Input\Properties\PublishProfiles\FolderProfile2.pubxml</_LastSelectedProfileId>
+  </PropertyGroup>
+  <ItemGroup>
+    <Compile Update="FormFoto.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="FormGUIDA.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="FormINFO.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="FormINSERISCI.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="FormLEGGI.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="FormMANUTENZIONE.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="FormMappaConcettuale.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="FormTIMER.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="PannelloMappaConcettuale.cs">
+      <SubType>Component</SubType>
+    </Compile>
+  </ItemGroup>
+</Project>
